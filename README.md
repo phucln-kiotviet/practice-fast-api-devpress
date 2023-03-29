@@ -36,6 +36,12 @@ FLUSH PRIVILEGES;
 CREATE DATABASE fastapi_blog;
 ```
 
+- Create migrations environment by running `alembic` init command. (**Note**) init alembic easy to see but hard to know what it is so `migrations` is best I think so.
+
+```
+alembic init migrations
+```
+
 
 - Adding User and Articles Table by `alembic` command:
 
