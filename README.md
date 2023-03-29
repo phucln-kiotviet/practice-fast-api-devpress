@@ -35,3 +35,16 @@ FLUSH PRIVILEGES;
 ```
 CREATE DATABASE fastapi_blog;
 ```
+
+
+- Adding User and Articles Table by `alembic` command:
+
+```
+alembic revision --autogenerate -m "Adding User and Article Table"
+```
+
+- Command above create migration file. Command below create tables:
+
+```
+alembic upgrade head
+```
