@@ -1,6 +1,6 @@
 # Practice fast api with mysql and sqlalchemy and alembic
 
-- Source from [devpress.csdn.net](https://devpress.csdn.net/python/62f5096cc6770329307fb178.html)
+- Source from [devpress.csdn.net](https://devpress.csdn.net/python/62f5096cc6770329307fb178.html) <-- Thanks a lot this guy. :D
 
 
 ## Mysql
