@@ -26,7 +26,7 @@ class Article(Base):
     body = Column(String(255))
     created_at = Column(DateTime(),default=datetime.now())
     update_at = Column(DateTime(), onupdate=datetime.now())
-    author_id = Column(Integer, ForeignKey("users.id", ondelete="RESTRICT"))
+    author_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"))
     author = relationship("User", back_populates="articles")
 
 

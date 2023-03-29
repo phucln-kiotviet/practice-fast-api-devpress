@@ -15,7 +15,7 @@ class ArticleCreate(ArticleBase):
 
 class Article(ArticleBase):
     id: int
-    author: EmailStr
+    author_id: int
     created_at: datetime
     updated_at: Optional[datetime]
 
